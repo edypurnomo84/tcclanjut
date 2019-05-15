@@ -6,7 +6,9 @@ Langkah 1 - Launch Cluster
 Untuk memulai, kita perlu meluncurkan cluster Kubernetes.
 Menjalankan perintah minikube start untuk memulai cluster components dan download Kubectl CLI.
 ![01](img1/img1.png)
+
 Menunggu memeriksa Node hingga ready dengan perintah kubectl get nodes
+
 ![02](img1/img2.png)
 
 Langkah 2 - Kubectl Run
@@ -57,12 +59,14 @@ Dengan menjalankan deployment, kami sekarang dapat menggunakan kubectl untuk men
 Melakukan penskalaan penyebaran akan meminta Kubernetes untuk meluncurkan Pod tambahan. Pod ini kemudian akan secara otomatis dimuat seimbang menggunakan service yang terbuka.
 
 Skala perintah kubectl memungkinkan kita untuk menyesuaikan jumlah Pods yang berjalan untuk pengendali penempatan atau replikasi tertentu.
+
 ![13](img1/img12.png)
 
 Mendaftar semua pod, kita akan melihat tiga berjalan untuk penyebaran http:
 ![14](img1/img13.png)
 
 Setelah setiap Pod dimulai, ia akan ditambahkan ke  load balancer service. Dengan menjelaskan service, kita dapat melihat titik akhir dan Pod terkait yang disertakan.
+
 ![15](img1/img14.png)
 
 Membuat permintaan ke service yang akan meminta di beberapa node memproses permintaan tersebut.
