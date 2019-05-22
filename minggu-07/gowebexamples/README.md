@@ -24,9 +24,9 @@ func main() {
 }
 
 
-![01](gowebexamples/hello/hello1-2.png)
+![01](hello/hello1-2.png)
 
-![02](gowebexamples/hello/hello3.png)
+![02](hello/hello3.png)
 
 > Routing (using gorilla/mux)
 
@@ -67,10 +67,10 @@ func main() {
 }
 
 
-![03](gowebexamples/routing/rout1.png)
+![03](routing/rout1.png)
 
-![04](gowebexamples/routing/rout2.png)
+![04](routing/rout2.png)
 
-![05](gowebexamples/routing/rout3.png)
+![05](routing/rout3.png)
 
-![06](gowebexamples/routing/rout4.png)
+![06](routing/rout4.png)
