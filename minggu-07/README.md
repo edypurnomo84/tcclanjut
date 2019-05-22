@@ -1,6 +1,9 @@
 # tcclanjut minggu-07
 
+> Go Web Examples
+* [ Hello World and Routing (using gorilla/mux)](gowebexamples/README.md)
 
+# tcclanjut minggu-08
 > Start containers using Kubectl
 
 Menggunakan Kubectl untuk create and launch Deployments, Replication Controllers dan mengexpose melalui Services tanpa menulis definisi yaml. Ini memungkinkan kita meluncurkan containers dengan cepat ke cluster.
